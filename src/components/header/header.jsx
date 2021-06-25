@@ -5,15 +5,13 @@ import { Typography } from "@material-ui/core";
 
 const Header = () => {
   return (
-    <>
-      <S.Header>
-        <ShoppingCartIcon />
-        <S.ItemCountButton variant='contained' color='primary'>
-          2
-        </S.ItemCountButton>
-        <Typography variant='h5'> Items</Typography>
-      </S.Header>
-    </>
+    <S.Header>
+      <ShoppingCartIcon />
+      <S.ItemCountButton variant="contained" color="primary">
+        2
+      </S.ItemCountButton>
+      <Typography variant="h5"> Items</Typography>
+    </S.Header>
   );
 };
 
